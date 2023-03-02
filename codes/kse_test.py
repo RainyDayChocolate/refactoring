@@ -20,6 +20,7 @@ def get_d(distSample0, distSampleTemp):
 
 
 def kse_test(x):
+
     # Compute the outlier score for each p-dimensional data point
     # The highest scores are possible outliers, scores between [0,1]
     # Original scoring algorithm by Michael S Kim (mikeskim@gmail.com)
